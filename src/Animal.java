@@ -3,6 +3,8 @@ import org.w3c.dom.ls.LSOutput;
 public abstract class Animal {
     protected final String habitat;
 
+    protected String favoriteFood;
+
     protected Animal(String habitat) {
         this.habitat = habitat;
     }

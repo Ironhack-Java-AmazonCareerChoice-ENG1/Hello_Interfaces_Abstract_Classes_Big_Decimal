@@ -1,9 +1,9 @@
 public interface Flyable {
 
-    String model= "here";
+    String MODEL= "here";
     void fly();
 
     default void acrobatics(){
-        System.out.println("yuhu");
+        System.out.println("yuhu" + MODEL);
     }
 }

@@ -5,7 +5,11 @@ public class Main {
         Persistence cloudPersistence = new CloudPersistence();
         Computer computer = new Computer(cloudPersistence);
 
-        Animal animal = new Bat("cave");
+        Animal animal = new Human("cave");
+
+        if(animal instanceof Bat) {
+            ((Bat) animal).fightJoker();
+        }
 
 
 

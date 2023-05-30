@@ -11,6 +11,10 @@ public class Bat extends Animal{
 
     }
 
+    public void fightJoker(){
+        System.out.println("tananananana tananana batman batman");
+    }
+
     public Bat(String habitat) {
         super(habitat);
     }
